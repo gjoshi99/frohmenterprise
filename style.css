@@ -41,9 +41,15 @@ a{
     border-radius: 6px;
 }
 
+.btn:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
 .email {
     margin-top: 10px;
 }
+
 
 /* GENERAL */
 .container {
