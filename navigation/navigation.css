@@ -1,0 +1,33 @@
+.navigation{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    z-index: 5;
+}
+
+.navigation li{
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 7px;
+    list-style: none;
+}
+
+.navigation li:hover{
+    cursor: pointer;
+    color: rgba(255,255,255, 0.7);
+    max-width: fit-content;
+    border-left: transparent;
+    border-right: transparent;
+    border-top: transparent;
+    border-bottom: white;
+    border-width: 1px;
+    border-style: solid;
+}
